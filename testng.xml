@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login_Regression">
+  <test name="Login_ValidData">
+    <classes>
+      <class name="com.salesforce.TC1_SFDC_LoginValid"/>
+    </classes>
+  </test> <!-- Login_Functionality -->
+  <test name="Login_InvalidData">
+    <classes>
+      <class name="com.salesforce.TC2_SFDC_LoginInvalid"/>
+    </classes>
+  </test> <!-- Login_Functionality -->
+  <test name="Login_RememeberMe">
+    <classes>
+      <class name="com.salesforce.TC3_SFDC_LoginRemeberMe"/>
+    </classes>
+  </test> <!-- Login_Functionality -->
+</suite> <!-- Login_Regression -->
+
+<!-- Below link is testNG report of above test cases.
+file:///Users/Mit/eclipse-workspace/SalesforceWithTestNG/test-output/emailable-report.html -->

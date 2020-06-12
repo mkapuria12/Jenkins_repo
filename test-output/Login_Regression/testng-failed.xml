@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login_Regression]">
+  <test thread-count="5" name="Login_InvalidData(failed)">
+    <classes>
+      <class name="com.salesforce.TC2_SFDC_LoginInvalid">
+        <methods>
+          <include name="TC1InValidCresentials" invocation-numbers="0 1"/>
+          <include name="launchBrowser"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- com.salesforce.TC2_SFDC_LoginInvalid -->
+    </classes>
+  </test> <!-- Login_InvalidData(failed) -->
+</suite> <!-- Failed suite [Login_Regression] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SFDC Login]">
+  <test thread-count="5" name="TC1_SFDC_LoginValid(failed)">
+    <classes>
+      <class name="com.salesforce.TC1_SFDC_LoginValid">
+        <methods>
+          <include name="logoutifDisplayed"/>
+          <include name="quitbrowser"/>
+          <include name="TC1ValidCresentials" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.salesforce.TC1_SFDC_LoginValid -->
+    </classes>
+  </test> <!-- TC1_SFDC_LoginValid(failed) -->
+</suite> <!-- Failed suite [SFDC Login] -->

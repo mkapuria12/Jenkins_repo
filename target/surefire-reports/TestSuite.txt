@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 45.595 sec <<< FAILURE! - in TestSuite
+logoutURL(com.salesforce.TC1_SFDC_LoginValid)  Time elapsed: 5.588 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#userNav\-arrow"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rohans-MBP-2.attlocal.net', ip: 'fe80:0:0:0:186a:4a4e:d631:ba24%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:58440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7fcb5a1c14789049b2dab6b1814c6d10
+*** Element info: {Using=id, value=userNav-arrow}
+	at com.salesforce.TC1_SFDC_LoginValid.logoutURL(TC1_SFDC_LoginValid.java:43)
+
+TC1InValidCresentials(com.salesforce.TC2_SFDC_LoginInvalid)  Time elapsed: 13.907 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Please enter your password.> but was:<true>
+	at com.salesforce.TC2_SFDC_LoginInvalid.TC1InValidCresentials(TC2_SFDC_LoginInvalid.java:43)
+
+TC1InValidCresentials(com.salesforce.TC2_SFDC_LoginInvalid)  Time elapsed: 4.325 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Please check your username and password. If you still can't log in, contact your Salesforce administrator.> but was:<true>
+	at com.salesforce.TC2_SFDC_LoginInvalid.TC1InValidCresentials(TC2_SFDC_LoginInvalid.java:49)
+

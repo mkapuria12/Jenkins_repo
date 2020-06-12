@@ -1,0 +1,4 @@
+com/salesforce/BrowserUtility.class
+com/salesforce/TC3_SFDC_LoginRemeberMe.class
+com/salesforce/TC2_SFDC_LoginInvalid.class
+com/salesforce/TC1_SFDC_LoginValid.class
